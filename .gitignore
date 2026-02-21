@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+build/
+dist/
+face_recognition_models/
+*.pyc
+structure.txt
