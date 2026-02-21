@@ -15,7 +15,7 @@ def ask_chatbot(user_message):
     conversation.append({"role": "user", "content": user_message})
 
     payload = {
-        "model": "llama3",
+        "model": "gemma:2b",
         "messages": conversation,
         "stream": False
     }

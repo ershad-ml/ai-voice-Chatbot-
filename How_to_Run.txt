@@ -1,0 +1,19 @@
+
+--- Make sure running these cmd on project terminal ---
+         * Before Running Project *
+
+1.   .\.venv\Scripts\Activate.ps1
+2.    python ui/main_window.py
+
+Skip If already applied
+
+---  In case of modification building exe again  ---
+
+*  From project root:
+
+Run:   rmdir /s /q build
+Run:   rmdir /s /q dist
+
+*  Then rebuild using the spec:
+
+Run:  pyinstaller AI_Assistant.spec
